@@ -1,0 +1,94 @@
+body{
+    /* font-size: 12px; */
+    margin: 0;
+    /* padding: 0; */
+    background-color: salmon;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/* Navbar */
+#navBar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 4.3rem;
+    padding: .3em 0 .3rem 0;
+    background: rgba(48, 47, 41, 0.6);
+}
+
+
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 32px;
+    /* width: 100%;
+    height: 33rem; */
+    background-color: black;
+    color: white;
+}
+
+.footerItem{
+    display: block;
+}
+
+#footerLogo{
+    width: 10rem;
+    height: 4.3rem;
+}
+
+#footerTeen{
+    width: 7.86rem;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footerItem ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerItem ul li{
+    font-size: 1rem;
+    margin: 0 1rem 0 1rem;
+    color: rgba(140,140,140,1);
+}
+
+.footerItem ul li:hover{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.footerItem p{
+    text-align: center;
+    font-size: .6rem;
+    margin: .09rem;
+    letter-spacing: .03rem;
+    color: rgba(140, 140, 140, 1);
+}
+
+.footerLast{
+    font-size: 0.75rem;
+}
+
+#footerHoyo{
+    margin-top: .6rem;
+    height: 3.1rem;
+    width: auto;
+}
